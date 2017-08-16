@@ -135,7 +135,8 @@
     var addHelpTasks = function () {
         var options = [
             {task: '--silent', message: 'Removes built in gulp messages to simplify output'},
-            {task: '--production', message: 'Adds minification to output JavaScript and SASS'},
+            {task: '--production', message: 'Adds minification to output JavaScript'},
+            {task: '--sourcemaps', message: 'Adds sourcemaps to output JavaScript'}
         ];
 
         var tasks = [
