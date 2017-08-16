@@ -1,5 +1,6 @@
-
 import {Component} from "@angular/core";
 
-@Component({})
+@Component({
+    templateUrl: './campaign.component.html'
+})
 export class CampaignComponent {}
