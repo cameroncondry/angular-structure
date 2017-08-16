@@ -3,6 +3,4 @@ import {AppModule} from "./app.module";
 
 const bootstrap = platformBrowserDynamic().bootstrapModule(AppModule);
 
-bootstrap
-    .then(success => console.log('Application Loaded!'))
-    // .catch(error => console.log(error));
+bootstrap.then(success => console.log('Application Loaded!'));

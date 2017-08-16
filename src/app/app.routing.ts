@@ -14,7 +14,6 @@ export const RouteGroups: RouteGroup[] = [
 
 let routes: Routes = RouteGroups.map(item => {
     return {
-        // component: LayoutComponent,
         component: item.component,
         data: {
             shouldDetach: true
