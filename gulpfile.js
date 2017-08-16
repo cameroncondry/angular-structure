@@ -44,8 +44,8 @@
             },
             webpack: {
                 entry: [
-                    './node_modules/zone.js/dist/zone.js',
-                    './node_modules/reflect-metadata/Reflect.js',
+                    'zone.js',
+                    'reflect-metadata',
                     './src/app/main.ts'
                 ],
                 module: {
