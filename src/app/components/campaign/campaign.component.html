@@ -1,10 +1,12 @@
-<div class="canvas">
-    <div class="shape"></div>
+<div zoom
+     [slider-marker]="slideMarker" [element]='shape' class="canvas">
+    <div #shape class="shape"></div>
     <div class="zoom">
         <ul>
-            <li class="zoom-in">+</li>
+            <li  class="zoom-in">+</li>
             <li class="zoom-slide">
-                <div class="slide-marker"></div>
+                <div #slideMarker
+                class="slide-marker"></div>
             </li>
             <li class="zoom-out">-</li>
         </ul>

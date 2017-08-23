@@ -3,7 +3,6 @@ import {BrowserModule} from "@angular/platform-browser";
 import {AppComponent} from "./app.component";
 import {AppRoutingModule} from "./app.routing";
 import {CampaignModule} from "./components/campaign/campaign.module";
-
 @NgModule({
     imports: [
         BrowserModule,
@@ -11,7 +10,7 @@ import {CampaignModule} from "./components/campaign/campaign.module";
         CampaignModule
     ],
     declarations: [
-        AppComponent
+        AppComponent,
     ],
     bootstrap: [AppComponent]
 })
