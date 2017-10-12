@@ -1,6 +1,6 @@
 import {Component, NgModule, Type} from "@angular/core";
 import {RouterModule, Routes} from "@angular/router";
-import {CampaignComponent} from "./components/campaign/campaign.component";
+import {MarketingComponent} from "./components/marketing/marketing.component";
 
 export interface RouteGroup {
     group: string,
@@ -9,7 +9,7 @@ export interface RouteGroup {
 }
 
 export const RouteGroups: RouteGroup[] = [
-    {group: 'campaign', path: '', component: CampaignComponent}
+    {group: 'automation', path: '', component: MarketingComponent}
 ];
 
 let routes: Routes = RouteGroups.map(item => {

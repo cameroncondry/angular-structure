@@ -2,17 +2,18 @@ import {NgModule} from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
 import {AppComponent} from "./app.component";
 import {AppRoutingModule} from "./app.routing";
-import {CampaignModule} from "./components/campaign/campaign.module";
+import {MarketingModule} from "./components/marketing/marketing.module";
 
 @NgModule({
     imports: [
         BrowserModule,
         AppRoutingModule,
-        CampaignModule
+        MarketingModule
     ],
     declarations: [
         AppComponent
     ],
     bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule {
+}
