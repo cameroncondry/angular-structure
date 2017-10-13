@@ -1,3 +1,4 @@
+
 export class Flowchart {
     private conditions: { [property: string]: string }[];
 

@@ -1,14 +1,15 @@
+
 import {Injectable, OnInit} from "@angular/core";
-import {FlowchartConstants} from "./flowchart.constants";
+import FlowchartConstants from "./flowchart.constants";
 
 @Injectable()
 
 export class FlowchartService implements OnInit {
-    private options: { [property: string]: string } = {
+    private options: { [property: string]: any } = {
         settings: null
     };
 
     ngOnInit(): void {
-        this.options.settings = FlowchartConstants.SETTINGS;
+        this.options.actions = {...FlowchartConstants.ACTION};
     }
 }
