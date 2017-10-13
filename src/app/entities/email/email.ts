@@ -1,4 +1,3 @@
-
 import {isArray} from "rxjs/util/isArray";
 
 export class Email {

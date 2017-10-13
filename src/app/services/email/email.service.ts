@@ -1,4 +1,3 @@
-
 import {Email} from "../../entities/email/email";
 
 export class EmailService {

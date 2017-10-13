@@ -7,7 +7,9 @@ import {FlowchartService} from "../../services/flowchart/flowchart.service";
 })
 
 export class FlowchartComponent implements OnInit {
-    constructor(private flowchartService: FlowchartService) {}
+    constructor(private flowchartService: FlowchartService) {
+    }
 
-    ngOnInit() {}
+    ngOnInit() {
+    }
 }

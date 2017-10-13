@@ -1,4 +1,3 @@
-
 const EmailConstants = {
     TYPE: {
         BULK: 'bulk',

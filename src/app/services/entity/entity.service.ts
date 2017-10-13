@@ -1,4 +1,3 @@
-
 import {Injectable} from "@angular/core";
 import * as Constants from "./entity.constants";
 import EntityConstants, {ENTITY_ICON} from "./entity.constants";

@@ -30,4 +30,5 @@ let routes: Routes = RouteGroups.map(item => {
         RouterModule
     ]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule {
+}

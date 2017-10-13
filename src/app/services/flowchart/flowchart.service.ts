@@ -1,4 +1,3 @@
-
 import {Injectable, OnInit} from "@angular/core";
 import FlowchartConstants from "./flowchart.constants";
 

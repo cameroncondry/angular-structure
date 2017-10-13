@@ -1,4 +1,3 @@
-
 const FlowchartConstants = {
     ACTION: {
         ADD: 'add',
